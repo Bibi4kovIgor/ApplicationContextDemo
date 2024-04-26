@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <bean id="greeting" class="edu.lemon.appcontextbasedbeanconfig.Greetings" scope="prototype">
+        <property name="name" value="Ihor" />
+    </bean>
+
+    <bean id="helloWorld" class="edu.lemon.appcontextbasedbeanconfig.HelloWorld" scope="prototype">
+        <constructor-arg ref="greeting"  />
+        <constructor-arg value="Hello, " />
+    </bean>
+
+    <bean id="logExecutionTimeAspect" class="edu.lemon.aspects.LogExecutionTimeAspect">
+        <property name="start" value="0" />
+        <property name="end" value="0" />
+    </bean>
+
+    <aop:config>
+        <aop:aspect id="logAspectAround" ref="logExecutionTimeAspect">
+            <aop:pointcut id="logExecutionPointcut"
+                          expression="@annotation(edu.lemon.aspects.annotation.LogExecutionTime)"/>
+            <aop:around method="logExecutionTime" pointcut-ref="logExecutionPointcut"/>
+            <aop:before method="logExecutionTimeStart" pointcut-ref="logExecutionPointcut"/>
+            <aop:after method="logExecutionTimeEnd" pointcut-ref="logExecutionPointcut"/>
+        </aop:aspect>
+
+    </aop:config>
+
+</beans>
