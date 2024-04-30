@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-    <bean id="greeting" class="edu.lemon.appcontextbasedbeanconfig.Greetings" scope="prototype">
+    <bean id="greeting" class="edu.lemon.model.Greetings" scope="prototype">
         <property name="name" value="Ihor" />
     </bean>
 
@@ -21,6 +21,10 @@
         <property name="start" value="0" />
         <property name="end" value="0" />
     </bean>
+
+    <bean id="personSingleton" class="edu.lemon.model.Person" scope="singleton" />
+
+    <bean id="personPrototype" class="edu.lemon.model.Person" scope="prototype" />
 
     <aop:config>
         <aop:aspect id="logAspectAround" ref="logExecutionTimeAspect">

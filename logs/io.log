@@ -538,3 +538,194 @@
 16:01:39.711 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
 16:01:44.725 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -160258745704858 ns
 16:01:44.727 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.annotationbasedbeanconfig.HelloWorld.greet() was executed in 5008082630 ns
+19:57:21.251 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@77e4c80f
+19:57:21.268 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+19:57:21.400 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+19:57:21.402 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+19:57:21.404 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+19:57:21.406 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:57:21.452 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+19:57:21.474 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+19:57:21.476 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+19:57:21.476 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+19:57:21.614 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+19:57:21.619 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+19:57:21.644 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:57:21.644 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+19:57:26.671 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -50714877176495 ns
+19:57:26.672 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.annotationbasedbeanconfig.HelloWorld.greet() was executed in 5013739343 ns
+19:57:46.804 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15bb6bea
+19:57:46.820 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+19:57:46.964 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+19:57:46.966 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+19:57:46.967 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+19:57:46.969 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:57:47.023 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+19:57:47.049 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+19:57:47.051 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+19:57:47.052 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+19:57:47.196 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+19:57:47.203 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+19:57:47.248 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:57:47.251 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+19:59:03.443 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15bb6bea
+19:59:03.460 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+19:59:03.622 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+19:59:03.624 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+19:59:03.626 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+19:59:03.627 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:59:03.678 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+19:59:03.704 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+19:59:03.706 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+19:59:03.707 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+19:59:03.816 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+19:59:03.821 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+19:59:03.846 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:59:03.847 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+19:59:19.435 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@77e4c80f
+19:59:19.454 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+19:59:19.676 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+19:59:19.678 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+19:59:19.680 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+19:59:19.682 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:59:19.744 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+19:59:19.771 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+19:59:19.774 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+19:59:19.775 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+19:59:19.954 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+19:59:19.958 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+19:59:19.995 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:59:19.997 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+19:59:25.030 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -50833237886310 ns
+19:59:25.031 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.annotationbasedbeanconfig.HelloWorld.greet() was executed in 5012450046 ns
+19:59:32.295 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+19:59:32.559 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 8 bean definitions from class path resource [application_context.xml]
+19:59:32.601 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:59:32.665 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:59:32.666 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+19:59:32.785 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+19:59:32.791 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+19:59:48.842 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+19:59:49.078 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+19:59:49.116 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+19:59:49.183 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+19:59:49.184 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+19:59:49.260 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+19:59:49.264 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+19:59:49.275 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:01:20.882 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:01:21.075 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:01:21.104 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:01:21.172 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:01:21.172 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:01:21.265 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:01:21.268 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:01:21.280 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:03:51.614 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:03:51.761 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:03:51.780 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:03:51.822 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:03:51.822 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:03:51.899 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:03:51.901 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:03:51.911 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:05:41.482 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:05:41.636 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:05:41.655 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:05:41.703 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:05:41.703 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:05:41.767 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:05:41.770 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:05:41.778 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:05:46.952 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.appcontextbasedbeanconfig.HelloWorld.greet() was executed in 5007428318 ns
+20:05:46.953 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -51215156790505 ns
+20:05:54.832 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:05:55.130 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:05:55.166 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:05:55.249 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:05:55.250 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:05:55.407 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:05:55.412 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:05:55.431 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:06:01.296 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41ee392b
+20:06:01.514 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:06:01.550 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:06:01.613 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:06:01.613 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:06:01.696 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:06:01.699 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:06:01.712 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:06:06.934 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.appcontextbasedbeanconfig.HelloWorld.greet() was executed in 5005582728 ns
+20:06:06.935 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -51235132097457 ns
+20:07:50.772 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:07:50.902 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:07:50.920 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:07:50.959 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:07:50.959 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:07:51.040 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:07:51.043 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:07:51.052 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:07:56.209 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.appcontextbasedbeanconfig.HelloWorld.greet() was executed in 5006019508 ns
+20:07:56.210 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -51344415300415 ns
+20:08:14.476 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@667a738
+20:08:14.699 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:08:14.733 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:08:14.795 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:08:14.795 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:08:14.873 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:08:14.876 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:08:14.889 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:08:43.737 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@64d2d351
+20:08:43.875 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:08:43.897 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:08:43.950 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:08:43.950 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:08:44.021 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:08:44.023 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:08:44.032 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:08:49.197 INFO  e.l.aspects.LogExecutionTimeAspect - Method String edu.lemon.appcontextbasedbeanconfig.HelloWorld.greet() was executed in 5005723768 ns
+20:08:49.198 INFO  e.l.aspects.LogExecutionTimeAspect - Method was executed in -51397404584877 ns
+20:08:54.779 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41ee392b
+20:08:55.023 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from class path resource [application_context.xml]
+20:08:55.057 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:08:55.134 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:08:55.135 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:08:55.241 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:08:55.245 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:08:55.257 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:12:57.714 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15bb6bea
+20:12:57.730 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:12:57.892 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:12:57.894 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:12:57.895 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:12:57.898 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:12:57.957 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+20:12:57.977 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+20:12:57.978 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+20:12:57.979 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+20:12:58.096 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+20:12:58.102 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+20:12:58.134 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:12:58.138 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:13:18.538 DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15bb6bea
+20:13:18.555 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:13:18.690 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:13:18.692 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:13:18.693 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:13:18.695 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:13:18.743 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+20:13:18.767 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTime(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+20:13:18.769 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeStart() throws java.lang.Throwable
+20:13:18.770 DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void edu.lemon.aspects.LogExecutionTimeAspect.logExecutionTimeEnd() throws java.lang.Throwable
+20:13:18.882 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'greetings'
+20:13:18.886 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorld'
+20:13:18.912 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:13:18.913 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
+20:14:42.263 DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41ee392b
+20:14:42.459 DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [application_context.xml]
+20:14:42.490 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:14:42.552 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'logExecutionTimeAspect'
+20:14:42.553 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+20:14:42.633 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+20:14:42.638 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+20:14:42.648 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'personSingleton'
