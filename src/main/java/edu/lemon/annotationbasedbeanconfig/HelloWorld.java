@@ -1,6 +1,7 @@
 package edu.lemon.annotationbasedbeanconfig;
 
 import edu.lemon.aspects.annotation.LogExecutionTime;
+import edu.lemon.model.Greetings;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 

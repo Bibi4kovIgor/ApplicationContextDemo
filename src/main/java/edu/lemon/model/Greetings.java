@@ -1,4 +1,4 @@
-package edu.lemon.annotationbasedbeanconfig;
+package edu.lemon.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

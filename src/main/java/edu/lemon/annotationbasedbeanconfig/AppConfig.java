@@ -1,6 +1,7 @@
 package edu.lemon.annotationbasedbeanconfig;
 
 import edu.lemon.aspects.LogExecutionTimeAspect;
+import edu.lemon.model.Greetings;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

@@ -1,6 +1,7 @@
 package edu.lemon.appcontextbasedbeanconfig;
 
 import edu.lemon.aspects.annotation.LogExecutionTime;
+import edu.lemon.model.Greetings;
 
 public class HelloWorld {
     private final String message;
